@@ -1,0 +1,49 @@
+$main-width: 100%;
+$columns: 12;
+
+.container {
+
+	width: $main-width;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 799px) {
+
+	.column {
+
+		flex-basis: 100%;
+	}
+
+	.row {
+
+		flex-wrap: wrap;
+	}
+}
+
+.row {
+
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.row > * {
+
+	margin: 5px;
+	flex-wrap: wrap;
+}
+
+.column {
+
+	display: flex;
+	flex-direction: column;
+}
+
+//	Columns
+@for $i from 1 through $columns {
+
+	.col-#{$i} {
+		
+		width: $i * 8.33%;
+	}
+}

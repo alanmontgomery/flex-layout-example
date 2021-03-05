@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+$font-family: 'Poppins', sans-serif;
+$main-border-radius: 0.4rem;
+
+$lighter: #f3f3f3;
+$light: #ececec;
+$dark: #575c62;
+$muted: #EDECF1;
+
+* {
+
+    font-family: $font-family;
+}
+
+a {
+
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+
+    color: rgb(56, 186, 238);
+}
+
+.demo-heading {
+
+    background-color: $light;
+    padding: 2rem;
+    border-radius: $main-border-radius;
+    border-left: 10px solid $dark;
+    margin-bottom: 1rem;
+}
+
+.demo-heading h2 {
+
+    margin-bottom: 0.5rem !important;
+}
+
+.demo-heading h2,
+.demo-heading p,
+.demo-heading h4 {
+
+    margin: 0;
+    padding: 0;
+}
+
+.demo-heading p {
+
+    margin-top: -5px !important;
+    color: #a0a0a0;
+}
+
+.demo-row {
+
+    background-color: $muted;
+    color: $dark;
+}
+
+.demo-row h4 {
+
+    padding: 1rem;
+}
+
+.demo-col {
+
+    background-color: $lighter;
+    border: 1px solid rgb(206, 206, 206);
+    color: $dark;
+    text-align: center;
+}
