@@ -11,11 +11,11 @@
 1. Install sass
 `npm install -g sass`
 <br />
-2. Make changes to `flex.scss`
+2. Make changes to `flex.scss`<br />
 3. Run `sass sass/flex.scss css/flex.css` in CLI
-   or watch for changes / edit flex.css directly
+   or watch for changes / edit flex.css directly<br />
 4. Just open index.html to view the example
-
+<br />
 *Change the `$main_width` sass variable to change the width of main containing div*
 
 Let's connect on Twitter!
