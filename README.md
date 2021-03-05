@@ -8,6 +8,10 @@
 
 > To get started
 
+1. Simply open index.html in your browser.
+
+> To make changes
+
 1. Install sass
 `npm install -g sass`
 <br />
